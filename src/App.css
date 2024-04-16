@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 .App {
   text-align: center;
 }
@@ -5,6 +8,13 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.item{
+ background-color: black;
+  
+}
+.item:hover{
+  background-color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +36,31 @@
 
 .App-link {
   color: #61dafb;
+}
+.remove-all{
+  margin-top: 5px;
+}
+.main-div{
+position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+margin-top: 10%;
+margin-bottom: 10%;
+
+
+}
+body{
+  background-color: #135D66;
+}
+
+.add-h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inner-list{
+  margin-top: 2px;
 }
 
 @keyframes App-logo-spin {
